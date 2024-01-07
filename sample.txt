@@ -1,0 +1,3 @@
+mvnw dependency:tree -Dincludes=com.scb.scpay -DappendOutput=true -DoutputType=dot -DappendOutput=true -DoutputFile=output.dot
+
+dot -Nshape=box output.dot -Tpng -o output.png
